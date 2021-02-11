@@ -26,11 +26,11 @@ KTH, Royal Institute of Technology
 jevaks@kth.se
 
 Sebastian Banert,  
-Lund University
+Lund University,  
 sebastian.banert@control.lth.se
 
 Jonas Adler,  
-DeepMind,
+DeepMind,  
 jonasadler@google.com
 
 Ozan Öktem,  
