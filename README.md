@@ -21,19 +21,19 @@ $ pip install https://github.com/odlgroup/odl/archive/master.zip
 
 Contact
 -------
-[Jevgenija Rudzusika],  
+Jevgenija Rudzusika,  
 KTH, Royal Institute of Technology   
 jevaks@kth.se
 
-[Sebastian Banert], 
+Sebastian Banert,  
 Lund University
 sebastian.banert@control.lth.se
 
-[Jonas Adler],
+Jonas Adler,  
 DeepMind,
 jonasadler@google.com
 
-[Ozan Öktem],  
+Ozan Öktem,  
 KTH, Royal Institute of Technology  
 ozan@kth.se
 
