@@ -27,7 +27,7 @@ def convnet(inp, n_layers, n_out=N_OUT, filters=FILTERS):
         x = inst_norm(inp)
         for i in range(n_layers):
             x = apply_conv(x, filters = filters)
-            x = activation(inst_norm(x))
+            x = inst_norm(x)
             x = activation(x)
         result = tf.layers.conv2d(x, filters=n_out, kernel_size=KSIZE, padding='SAME')
     return result
