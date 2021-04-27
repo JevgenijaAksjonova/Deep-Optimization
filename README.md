@@ -13,10 +13,14 @@ The code contains the following
 
 Dependencies
 ------------
-The code depends on [ODL](https://github.com/odlgroup/odl). It can be most easily installed by running 
+The code depends on tensorflow-gpu=1.15.0, [ODL](https://github.com/odlgroup/odl) and [ASTRA toolbox](https://www.astra-toolbox.com/). 
+ODL and ASTRA can be installed by 
 
 ```bash
-$ pip install https://github.com/odlgroup/odl/archive/master.zip
+$ git clone https://github.com/odlgroup/odl
+$ cd odl
+$ pip install --editable .
+$ conda install -c astra-toolbox/label/dev astra-toolbox
 ```
 
 Contact
