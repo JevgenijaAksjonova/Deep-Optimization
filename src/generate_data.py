@@ -2,7 +2,7 @@ import numpy as np
 import odl
 import os
 
-MAYO_FOLDER = ""
+MAYO_FOLDER = "/mnt/data/jevgenija/Mayo/"
 
 # generate data with normal 5% noise
 def generate_transform_mayo(images,operator):
@@ -25,6 +25,7 @@ def generate_data(operator, mode, batch_size, val_ratio=0.):
     if mode == 'test':
         for (dirpath, dirnames, filenames) in os.walk(folder):
             data.extend([os.path.join(folder, fi) for fi in filenames if fi.startswith(test)])
+        data = np.sort(data)
     else:
         # mode is "train" or "validate"
         for (dirpath, dirnames, filenames) in os.walk(folder):

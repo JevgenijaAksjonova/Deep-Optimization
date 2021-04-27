@@ -282,10 +282,10 @@ def fista_opt(x, y, T, T_adj, W, W_adj, lam, mu, n_iter):
     yn = x
     tn = tf.constant(1, dtype=tf.float32)
     i = tf.constant(0, dtype=tf.int32)
-    def cond(i, xn, yn, tn, loss_f_i, loss_g_i):
+    def cond(i, xn, yn, tn, losses):
         return i < n_iter
 
-    def body(i, xn, yn, tn, loss_f_i, loss_g_i):
+    def body(i, xn, yn, tn, losses):
         xn_prev = xn
         grad_f = 2 * T_adj(T(yn) - y)
         xn = yn - gamma_n * grad_f
