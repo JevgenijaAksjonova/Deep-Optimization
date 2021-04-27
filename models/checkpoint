@@ -1,0 +1,6 @@
+model_checkpoint_path: "learned_smooth_40000_train_iter.ckpt"
+all_model_checkpoint_paths: "learned_smooth_0_train_iter.ckpt"
+all_model_checkpoint_paths: "learned_smooth_10000_train_iter.ckpt"
+all_model_checkpoint_paths: "learned_smooth_20000_train_iter.ckpt"
+all_model_checkpoint_paths: "learned_smooth_30000_train_iter.ckpt"
+all_model_checkpoint_paths: "learned_smooth_40000_train_iter.ckpt"
