@@ -2,7 +2,7 @@ import numpy as np
 import odl
 import os
 
-MAYO_FOLDER = "/mnt/data/jevgenija/Mayo/"
+MAYO_FOLDER = ""
 
 # generate data with normal 5% noise
 def generate_transform_mayo(images,operator):
