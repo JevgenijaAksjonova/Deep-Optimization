@@ -1,7 +1,7 @@
-Deep Forward-Backward Optimization Methods with Provable Convergence
+Accelerated Forward-Backward Optimization using Deep Learning
 ==================================
 
-This repository contains the code for the article "[Deep Forward-Backward Optimization Methods with Provable Convergence](link to the paper)".
+This repository contains the code for the article "[Accelerated Forward-Backward Optimization using Deep Learning](link to the paper)".
 
 Contents
 --------
