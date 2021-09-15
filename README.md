@@ -1,7 +1,7 @@
 Accelerated Forward-Backward Optimization using Deep Learning
 ==================================
 
-This repository contains the code for the article "[Accelerated Forward-Backward Optimization using Deep Learning](link to the paper)".
+This repository contains the code for the article "[Accelerated Forward-Backward Optimization using Deep Learning](https://arxiv.org/abs/2105.05210)".
 
 Contents
 --------
